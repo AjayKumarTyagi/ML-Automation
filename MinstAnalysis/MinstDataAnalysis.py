@@ -32,5 +32,3 @@ print(m[0])
 print(m[1])
 accuracy=mod.history['accuracy'][-1]
 
-from Minst import enhance
-enhance(model,accuracy,x_train,y_train)
